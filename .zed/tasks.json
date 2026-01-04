@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Run Main",
+    "command": "uv",
+    "args": ["run", "python", "main.py"],
+    "cwd": "{workspace_root}",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Run Example",
+    "command": "uv",
+    "args": ["run", "python", "examples/basic_usage.py"],
+    "cwd": "{workspace_root}",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Install Dependencies",
+    "command": "uv",
+    "args": ["sync"],
+    "cwd": "{workspace_root}",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Run Tests",
+    "command": "uv",
+    "args": ["run", "pytest"],
+    "cwd": "{workspace_root}",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  }
+]

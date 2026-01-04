@@ -1,0 +1,5 @@
+- This is a uv python package manager project.
+- The app will be using the agno python agent workflow framework
+- Rules exist in your global rules library for all of these tools
+- Consult your rules library whenever asked to create or implement anything, esp. for agno or uv related
+- Create uv launch and debug configs
